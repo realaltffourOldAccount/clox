@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/chunk.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/compiler.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/compiler.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/compiler.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/debug.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/main.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/memory.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/scanner.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/scanner.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/scanner.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/value.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git repos/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/vm.c.o   -c \"/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c\"",
+  "file": "/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c"
+}
+]

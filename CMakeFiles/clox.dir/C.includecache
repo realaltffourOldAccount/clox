@@ -1,0 +1,92 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c
+stdlib.h
+-
+chunk.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+memory.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+common.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+value.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c
+debug.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
+stdio.h
+-
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
+chunk.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+value.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c
+chunk.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+common.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+debug.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
+vm.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c
+stdlib.h
+-
+common.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+memory.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
+common.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c
+stdlib.h
+-
+memory.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
+value.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+common.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c
+vm.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.h
+stdio.h
+-
+common.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+debug.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
+
+/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.h
+chunk.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+value.h
+/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+
