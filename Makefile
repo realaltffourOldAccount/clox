@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ayham-mamoun/Desktop/git repos/clox"
+CMAKE_SOURCE_DIR = /home/ayham-mamoun/Desktop/git/clox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ayham-mamoun/Desktop/git repos/clox"
+CMAKE_BINARY_DIR = /home/ayham-mamoun/Desktop/git/clox
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ayham-mamoun/Desktop/git repos/clox/CMakeFiles" "/home/ayham-mamoun/Desktop/git repos/clox/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayham-mamoun/Desktop/git/clox/CMakeFiles /home/ayham-mamoun/Desktop/git/clox/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ayham-mamoun/Desktop/git repos/clox/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayham-mamoun/Desktop/git/clox/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ clox/chunk.s: clox/chunk.c.s
 clox/chunk.c.s:
 	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/chunk.c.s
 .PHONY : clox/chunk.c.s
+
+clox/compiler.o: clox/compiler.c.o
+
+.PHONY : clox/compiler.o
+
+# target to build an object file
+clox/compiler.c.o:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/compiler.c.o
+.PHONY : clox/compiler.c.o
+
+clox/compiler.i: clox/compiler.c.i
+
+.PHONY : clox/compiler.i
+
+# target to preprocess a source file
+clox/compiler.c.i:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/compiler.c.i
+.PHONY : clox/compiler.c.i
+
+clox/compiler.s: clox/compiler.c.s
+
+.PHONY : clox/compiler.s
+
+# target to generate assembly for a file
+clox/compiler.c.s:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/compiler.c.s
+.PHONY : clox/compiler.c.s
 
 clox/debug.o: clox/debug.c.o
 
@@ -231,6 +258,33 @@ clox/memory.c.s:
 	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/memory.c.s
 .PHONY : clox/memory.c.s
 
+clox/scanner.o: clox/scanner.c.o
+
+.PHONY : clox/scanner.o
+
+# target to build an object file
+clox/scanner.c.o:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/scanner.c.o
+.PHONY : clox/scanner.c.o
+
+clox/scanner.i: clox/scanner.c.i
+
+.PHONY : clox/scanner.i
+
+# target to preprocess a source file
+clox/scanner.c.i:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/scanner.c.i
+.PHONY : clox/scanner.c.i
+
+clox/scanner.s: clox/scanner.c.s
+
+.PHONY : clox/scanner.s
+
+# target to generate assembly for a file
+clox/scanner.c.s:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/scanner.c.s
+.PHONY : clox/scanner.c.s
+
 clox/value.o: clox/value.c.o
 
 .PHONY : clox/value.o
@@ -297,6 +351,9 @@ help:
 	@echo "... clox/chunk.o"
 	@echo "... clox/chunk.i"
 	@echo "... clox/chunk.s"
+	@echo "... clox/compiler.o"
+	@echo "... clox/compiler.i"
+	@echo "... clox/compiler.s"
 	@echo "... clox/debug.o"
 	@echo "... clox/debug.i"
 	@echo "... clox/debug.s"
@@ -306,6 +363,9 @@ help:
 	@echo "... clox/memory.o"
 	@echo "... clox/memory.i"
 	@echo "... clox/memory.s"
+	@echo "... clox/scanner.o"
+	@echo "... clox/scanner.i"
+	@echo "... clox/scanner.s"
 	@echo "... clox/value.o"
 	@echo "... clox/value.i"
 	@echo "... clox/value.s"

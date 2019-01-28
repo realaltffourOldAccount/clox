@@ -1,4 +1,4 @@
-# Install script for directory: /home/ayham-mamoun/Desktop/git repos/clox
+# Install script for directory: /home/ayham-mamoun/Desktop/git/clox
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ayham-mamoun/Desktop/git repos/clox/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ayham-mamoun/Desktop/git/clox/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

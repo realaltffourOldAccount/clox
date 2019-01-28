@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ayham-mamoun/Desktop/git repos/clox"
+CMAKE_SOURCE_DIR = /home/ayham-mamoun/Desktop/git/clox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ayham-mamoun/Desktop/git repos/clox/build"
+CMAKE_BINARY_DIR = /home/ayham-mamoun/Desktop/git/clox/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clox.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/clox.dir/flags.make
 
 CMakeFiles/clox.dir/clox/chunk.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/chunk.c.o: ../clox/chunk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clox.dir/clox/chunk.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/chunk.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clox.dir/clox/chunk.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/chunk.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/chunk.c
 
 CMakeFiles/clox.dir/clox/chunk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/chunk.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c" > CMakeFiles/clox.dir/clox/chunk.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/chunk.c > CMakeFiles/clox.dir/clox/chunk.c.i
 
 CMakeFiles/clox.dir/clox/chunk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/chunk.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c" -o CMakeFiles/clox.dir/clox/chunk.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/chunk.c -o CMakeFiles/clox.dir/clox/chunk.c.s
 
 CMakeFiles/clox.dir/clox/chunk.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/clox.dir/clox/chunk.c.o.provides.build: CMakeFiles/clox.dir/clox/chun
 
 CMakeFiles/clox.dir/clox/compiler.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/compiler.c.o: ../clox/compiler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clox.dir/clox/compiler.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/compiler.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/compiler.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clox.dir/clox/compiler.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/compiler.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/compiler.c
 
 CMakeFiles/clox.dir/clox/compiler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/compiler.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/compiler.c" > CMakeFiles/clox.dir/clox/compiler.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/compiler.c > CMakeFiles/clox.dir/clox/compiler.c.i
 
 CMakeFiles/clox.dir/clox/compiler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/compiler.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/compiler.c" -o CMakeFiles/clox.dir/clox/compiler.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/compiler.c -o CMakeFiles/clox.dir/clox/compiler.c.s
 
 CMakeFiles/clox.dir/clox/compiler.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/clox.dir/clox/compiler.c.o.provides.build: CMakeFiles/clox.dir/clox/c
 
 CMakeFiles/clox.dir/clox/debug.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/debug.c.o: ../clox/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clox.dir/clox/debug.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/debug.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clox.dir/clox/debug.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/debug.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/debug.c
 
 CMakeFiles/clox.dir/clox/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/debug.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c" > CMakeFiles/clox.dir/clox/debug.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/debug.c > CMakeFiles/clox.dir/clox/debug.c.i
 
 CMakeFiles/clox.dir/clox/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/debug.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c" -o CMakeFiles/clox.dir/clox/debug.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/debug.c -o CMakeFiles/clox.dir/clox/debug.c.s
 
 CMakeFiles/clox.dir/clox/debug.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/clox.dir/clox/debug.c.o.provides.build: CMakeFiles/clox.dir/clox/debu
 
 CMakeFiles/clox.dir/clox/main.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/main.c.o: ../clox/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/clox.dir/clox/main.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/main.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/clox.dir/clox/main.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/main.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/main.c
 
 CMakeFiles/clox.dir/clox/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/main.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c" > CMakeFiles/clox.dir/clox/main.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/main.c > CMakeFiles/clox.dir/clox/main.c.i
 
 CMakeFiles/clox.dir/clox/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/main.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c" -o CMakeFiles/clox.dir/clox/main.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/main.c -o CMakeFiles/clox.dir/clox/main.c.s
 
 CMakeFiles/clox.dir/clox/main.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/clox.dir/clox/main.c.o.provides.build: CMakeFiles/clox.dir/clox/main.
 
 CMakeFiles/clox.dir/clox/memory.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/memory.c.o: ../clox/memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/clox.dir/clox/memory.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/memory.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/clox.dir/clox/memory.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/memory.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/memory.c
 
 CMakeFiles/clox.dir/clox/memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/memory.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c" > CMakeFiles/clox.dir/clox/memory.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/memory.c > CMakeFiles/clox.dir/clox/memory.c.i
 
 CMakeFiles/clox.dir/clox/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/memory.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c" -o CMakeFiles/clox.dir/clox/memory.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/memory.c -o CMakeFiles/clox.dir/clox/memory.c.s
 
 CMakeFiles/clox.dir/clox/memory.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/clox.dir/clox/memory.c.o.provides.build: CMakeFiles/clox.dir/clox/mem
 
 CMakeFiles/clox.dir/clox/scanner.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/scanner.c.o: ../clox/scanner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clox.dir/clox/scanner.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/scanner.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/scanner.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clox.dir/clox/scanner.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/scanner.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/scanner.c
 
 CMakeFiles/clox.dir/clox/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/scanner.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/scanner.c" > CMakeFiles/clox.dir/clox/scanner.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/scanner.c > CMakeFiles/clox.dir/clox/scanner.c.i
 
 CMakeFiles/clox.dir/clox/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/scanner.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/scanner.c" -o CMakeFiles/clox.dir/clox/scanner.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/scanner.c -o CMakeFiles/clox.dir/clox/scanner.c.s
 
 CMakeFiles/clox.dir/clox/scanner.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/clox.dir/clox/scanner.c.o.provides.build: CMakeFiles/clox.dir/clox/sc
 
 CMakeFiles/clox.dir/clox/value.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/value.c.o: ../clox/value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clox.dir/clox/value.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/value.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clox.dir/clox/value.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/value.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/value.c
 
 CMakeFiles/clox.dir/clox/value.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/value.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c" > CMakeFiles/clox.dir/clox/value.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/value.c > CMakeFiles/clox.dir/clox/value.c.i
 
 CMakeFiles/clox.dir/clox/value.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/value.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c" -o CMakeFiles/clox.dir/clox/value.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/value.c -o CMakeFiles/clox.dir/clox/value.c.s
 
 CMakeFiles/clox.dir/clox/value.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/clox.dir/clox/value.c.o.provides.build: CMakeFiles/clox.dir/clox/valu
 
 CMakeFiles/clox.dir/clox/vm.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/vm.c.o: ../clox/vm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clox.dir/clox/vm.c.o"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/vm.c.o   -c "/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clox.dir/clox/vm.c.o"
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/vm.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/vm.c
 
 CMakeFiles/clox.dir/clox/vm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/vm.c.i"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c" > CMakeFiles/clox.dir/clox/vm.c.i
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/vm.c > CMakeFiles/clox.dir/clox/vm.c.i
 
 CMakeFiles/clox.dir/clox/vm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/vm.c.s"
-	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c" -o CMakeFiles/clox.dir/clox/vm.c.s
+	/usr/bin/gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/vm.c -o CMakeFiles/clox.dir/clox/vm.c.s
 
 CMakeFiles/clox.dir/clox/vm.c.o.requires:
 
@@ -273,7 +273,7 @@ bin/clox: CMakeFiles/clox.dir/clox/value.c.o
 bin/clox: CMakeFiles/clox.dir/clox/vm.c.o
 bin/clox: CMakeFiles/clox.dir/build.make
 bin/clox: CMakeFiles/clox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable bin/clox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable bin/clox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/clox.dir/clean:
 .PHONY : CMakeFiles/clox.dir/clean
 
 CMakeFiles/clox.dir/depend:
-	cd "/home/ayham-mamoun/Desktop/git repos/clox/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ayham-mamoun/Desktop/git repos/clox" "/home/ayham-mamoun/Desktop/git repos/clox" "/home/ayham-mamoun/Desktop/git repos/clox/build" "/home/ayham-mamoun/Desktop/git repos/clox/build" "/home/ayham-mamoun/Desktop/git repos/clox/build/CMakeFiles/clox.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/ayham-mamoun/Desktop/git/clox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ayham-mamoun/Desktop/git/clox /home/ayham-mamoun/Desktop/git/clox /home/ayham-mamoun/Desktop/git/clox/build /home/ayham-mamoun/Desktop/git/clox/build /home/ayham-mamoun/Desktop/git/clox/build/CMakeFiles/clox.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clox.dir/depend
 

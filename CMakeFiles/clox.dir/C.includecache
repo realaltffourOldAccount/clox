@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.c
+/home/ayham-mamoun/Desktop/git/clox/clox/chunk.c
 stdlib.h
 -
 chunk.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+/home/ayham-mamoun/Desktop/git/clox/clox/chunk.h
 memory.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
+/home/ayham-mamoun/Desktop/git/clox/clox/memory.h
 
-/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+/home/ayham-mamoun/Desktop/git/clox/clox/chunk.h
 common.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
 value.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+/home/ayham-mamoun/Desktop/git/clox/clox/value.h
 
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
 stdbool.h
 -
 stddef.h
@@ -28,65 +28,95 @@ stddef.h
 stdint.h
 -
 
-/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.c
-debug.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
-stdio.h
--
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
-chunk.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
-value.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/main.c
-chunk.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
-common.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
-debug.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
-vm.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.h
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.c
-stdlib.h
--
-common.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
-memory.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
-common.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/value.c
-stdlib.h
--
-memory.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/memory.h
-value.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
-common.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
-
-/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.c
-vm.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.h
+/home/ayham-mamoun/Desktop/git/clox/clox/compiler.c
 stdio.h
 -
 common.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/common.h
-debug.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/debug.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+compiler.h
+/home/ayham-mamoun/Desktop/git/clox/clox/compiler.h
+scanner.h
+/home/ayham-mamoun/Desktop/git/clox/clox/scanner.h
 
-/home/ayham-mamoun/Desktop/git repos/clox/clox/vm.h
+/home/ayham-mamoun/Desktop/git/clox/clox/compiler.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/debug.c
+debug.h
+/home/ayham-mamoun/Desktop/git/clox/clox/debug.h
+stdio.h
+-
+
+/home/ayham-mamoun/Desktop/git/clox/clox/debug.h
 chunk.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/chunk.h
+/home/ayham-mamoun/Desktop/git/clox/clox/chunk.h
 value.h
-/home/ayham-mamoun/Desktop/git repos/clox/clox/value.h
+/home/ayham-mamoun/Desktop/git/clox/clox/value.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/main.c
+chunk.h
+/home/ayham-mamoun/Desktop/git/clox/clox/chunk.h
+common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+debug.h
+/home/ayham-mamoun/Desktop/git/clox/clox/debug.h
+vm.h
+/home/ayham-mamoun/Desktop/git/clox/clox/vm.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/ayham-mamoun/Desktop/git/clox/clox/memory.c
+stdlib.h
+-
+common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+memory.h
+/home/ayham-mamoun/Desktop/git/clox/clox/memory.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/memory.h
+common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/scanner.c
+scanner.h
+/home/ayham-mamoun/Desktop/git/clox/clox/scanner.h
+common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+stdio.h
+-
+string.h
+-
+
+/home/ayham-mamoun/Desktop/git/clox/clox/scanner.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/value.c
+stdlib.h
+-
+memory.h
+/home/ayham-mamoun/Desktop/git/clox/clox/memory.h
+value.h
+/home/ayham-mamoun/Desktop/git/clox/clox/value.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/value.h
+common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/vm.c
+vm.h
+/home/ayham-mamoun/Desktop/git/clox/clox/vm.h
+stdio.h
+-
+common.h
+/home/ayham-mamoun/Desktop/git/clox/clox/common.h
+debug.h
+/home/ayham-mamoun/Desktop/git/clox/clox/debug.h
+
+/home/ayham-mamoun/Desktop/git/clox/clox/vm.h
+chunk.h
+/home/ayham-mamoun/Desktop/git/clox/clox/chunk.h
+value.h
+/home/ayham-mamoun/Desktop/git/clox/clox/value.h
 
