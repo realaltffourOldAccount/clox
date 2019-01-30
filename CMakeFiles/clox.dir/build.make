@@ -177,9 +177,33 @@ CMakeFiles/clox.dir/clox/memory.c.o.provides: CMakeFiles/clox.dir/clox/memory.c.
 CMakeFiles/clox.dir/clox/memory.c.o.provides.build: CMakeFiles/clox.dir/clox/memory.c.o
 
 
+CMakeFiles/clox.dir/clox/object.c.o: CMakeFiles/clox.dir/flags.make
+CMakeFiles/clox.dir/clox/object.c.o: clox/object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clox.dir/clox/object.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/object.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/object.c
+
+CMakeFiles/clox.dir/clox/object.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/clox/object.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ayham-mamoun/Desktop/git/clox/clox/object.c > CMakeFiles/clox.dir/clox/object.c.i
+
+CMakeFiles/clox.dir/clox/object.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/clox/object.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ayham-mamoun/Desktop/git/clox/clox/object.c -o CMakeFiles/clox.dir/clox/object.c.s
+
+CMakeFiles/clox.dir/clox/object.c.o.requires:
+
+.PHONY : CMakeFiles/clox.dir/clox/object.c.o.requires
+
+CMakeFiles/clox.dir/clox/object.c.o.provides: CMakeFiles/clox.dir/clox/object.c.o.requires
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/object.c.o.provides.build
+.PHONY : CMakeFiles/clox.dir/clox/object.c.o.provides
+
+CMakeFiles/clox.dir/clox/object.c.o.provides.build: CMakeFiles/clox.dir/clox/object.c.o
+
+
 CMakeFiles/clox.dir/clox/scanner.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/scanner.c.o: clox/scanner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clox.dir/clox/scanner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clox.dir/clox/scanner.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/scanner.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/scanner.c
 
 CMakeFiles/clox.dir/clox/scanner.c.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/clox.dir/clox/scanner.c.o.provides.build: CMakeFiles/clox.dir/clox/sc
 
 CMakeFiles/clox.dir/clox/value.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/value.c.o: clox/value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clox.dir/clox/value.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clox.dir/clox/value.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/value.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/value.c
 
 CMakeFiles/clox.dir/clox/value.c.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/clox.dir/clox/value.c.o.provides.build: CMakeFiles/clox.dir/clox/valu
 
 CMakeFiles/clox.dir/clox/vm.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/clox/vm.c.o: clox/vm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clox.dir/clox/vm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/clox.dir/clox/vm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clox.dir/clox/vm.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/vm.c
 
 CMakeFiles/clox.dir/clox/vm.c.i: cmake_force
@@ -256,6 +280,7 @@ clox_OBJECTS = \
 "CMakeFiles/clox.dir/clox/debug.c.o" \
 "CMakeFiles/clox.dir/clox/main.c.o" \
 "CMakeFiles/clox.dir/clox/memory.c.o" \
+"CMakeFiles/clox.dir/clox/object.c.o" \
 "CMakeFiles/clox.dir/clox/scanner.c.o" \
 "CMakeFiles/clox.dir/clox/value.c.o" \
 "CMakeFiles/clox.dir/clox/vm.c.o"
@@ -268,12 +293,13 @@ bin/clox: CMakeFiles/clox.dir/clox/compiler.c.o
 bin/clox: CMakeFiles/clox.dir/clox/debug.c.o
 bin/clox: CMakeFiles/clox.dir/clox/main.c.o
 bin/clox: CMakeFiles/clox.dir/clox/memory.c.o
+bin/clox: CMakeFiles/clox.dir/clox/object.c.o
 bin/clox: CMakeFiles/clox.dir/clox/scanner.c.o
 bin/clox: CMakeFiles/clox.dir/clox/value.c.o
 bin/clox: CMakeFiles/clox.dir/clox/vm.c.o
 bin/clox: CMakeFiles/clox.dir/build.make
 bin/clox: CMakeFiles/clox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable bin/clox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayham-mamoun/Desktop/git/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable bin/clox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -286,6 +312,7 @@ CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/compiler.c.o.requires
 CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/debug.c.o.requires
 CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/main.c.o.requires
 CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/memory.c.o.requires
+CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/object.c.o.requires
 CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/scanner.c.o.requires
 CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/value.c.o.requires
 CMakeFiles/clox.dir/requires: CMakeFiles/clox.dir/clox/vm.c.o.requires

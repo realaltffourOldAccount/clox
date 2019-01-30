@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ayham-mamoun/Desktop/git/clox/clox/debug.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/debug.c.o"
   "/home/ayham-mamoun/Desktop/git/clox/clox/main.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/main.c.o"
   "/home/ayham-mamoun/Desktop/git/clox/clox/memory.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/memory.c.o"
+  "/home/ayham-mamoun/Desktop/git/clox/clox/object.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/object.c.o"
   "/home/ayham-mamoun/Desktop/git/clox/clox/scanner.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/scanner.c.o"
   "/home/ayham-mamoun/Desktop/git/clox/clox/value.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/value.c.o"
   "/home/ayham-mamoun/Desktop/git/clox/clox/vm.c" "/home/ayham-mamoun/Desktop/git/clox/CMakeFiles/clox.dir/clox/vm.c.o"

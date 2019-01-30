@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/ayham-mamoun/Desktop/git/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/object.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/object.c",
+  "file": "/home/ayham-mamoun/Desktop/git/clox/clox/object.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git/clox/build",
   "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/scanner.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/scanner.c",
   "file": "/home/ayham-mamoun/Desktop/git/clox/clox/scanner.c"
 },

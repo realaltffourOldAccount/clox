@@ -258,6 +258,33 @@ clox/memory.c.s:
 	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/memory.c.s
 .PHONY : clox/memory.c.s
 
+clox/object.o: clox/object.c.o
+
+.PHONY : clox/object.o
+
+# target to build an object file
+clox/object.c.o:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/object.c.o
+.PHONY : clox/object.c.o
+
+clox/object.i: clox/object.c.i
+
+.PHONY : clox/object.i
+
+# target to preprocess a source file
+clox/object.c.i:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/object.c.i
+.PHONY : clox/object.c.i
+
+clox/object.s: clox/object.c.s
+
+.PHONY : clox/object.s
+
+# target to generate assembly for a file
+clox/object.c.s:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/object.c.s
+.PHONY : clox/object.c.s
+
 clox/scanner.o: clox/scanner.c.o
 
 .PHONY : clox/scanner.o
@@ -363,6 +390,9 @@ help:
 	@echo "... clox/memory.o"
 	@echo "... clox/memory.i"
 	@echo "... clox/memory.s"
+	@echo "... clox/object.o"
+	@echo "... clox/object.i"
+	@echo "... clox/object.s"
 	@echo "... clox/scanner.o"
 	@echo "... clox/scanner.i"
 	@echo "... clox/scanner.s"

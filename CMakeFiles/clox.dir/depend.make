@@ -5,12 +5,18 @@ CMakeFiles/clox.dir/clox/chunk.c.o: clox/chunk.c
 CMakeFiles/clox.dir/clox/chunk.c.o: clox/chunk.h
 CMakeFiles/clox.dir/clox/chunk.c.o: clox/common.h
 CMakeFiles/clox.dir/clox/chunk.c.o: clox/memory.h
+CMakeFiles/clox.dir/clox/chunk.c.o: clox/object.h
 CMakeFiles/clox.dir/clox/chunk.c.o: clox/value.h
 
+CMakeFiles/clox.dir/clox/compiler.c.o: clox/chunk.h
 CMakeFiles/clox.dir/clox/compiler.c.o: clox/common.h
 CMakeFiles/clox.dir/clox/compiler.c.o: clox/compiler.c
 CMakeFiles/clox.dir/clox/compiler.c.o: clox/compiler.h
+CMakeFiles/clox.dir/clox/compiler.c.o: clox/debug.h
+CMakeFiles/clox.dir/clox/compiler.c.o: clox/object.h
 CMakeFiles/clox.dir/clox/compiler.c.o: clox/scanner.h
+CMakeFiles/clox.dir/clox/compiler.c.o: clox/value.h
+CMakeFiles/clox.dir/clox/compiler.c.o: clox/vm.h
 
 CMakeFiles/clox.dir/clox/debug.c.o: clox/chunk.h
 CMakeFiles/clox.dir/clox/debug.c.o: clox/common.h
@@ -20,14 +26,30 @@ CMakeFiles/clox.dir/clox/debug.c.o: clox/value.h
 
 CMakeFiles/clox.dir/clox/main.c.o: clox/chunk.h
 CMakeFiles/clox.dir/clox/main.c.o: clox/common.h
+CMakeFiles/clox.dir/clox/main.c.o: clox/compiler.h
 CMakeFiles/clox.dir/clox/main.c.o: clox/debug.h
 CMakeFiles/clox.dir/clox/main.c.o: clox/main.c
+CMakeFiles/clox.dir/clox/main.c.o: clox/object.h
 CMakeFiles/clox.dir/clox/main.c.o: clox/value.h
 CMakeFiles/clox.dir/clox/main.c.o: clox/vm.h
 
+CMakeFiles/clox.dir/clox/memory.c.o: clox/chunk.h
 CMakeFiles/clox.dir/clox/memory.c.o: clox/common.h
+CMakeFiles/clox.dir/clox/memory.c.o: clox/compiler.h
 CMakeFiles/clox.dir/clox/memory.c.o: clox/memory.c
 CMakeFiles/clox.dir/clox/memory.c.o: clox/memory.h
+CMakeFiles/clox.dir/clox/memory.c.o: clox/object.h
+CMakeFiles/clox.dir/clox/memory.c.o: clox/value.h
+CMakeFiles/clox.dir/clox/memory.c.o: clox/vm.h
+
+CMakeFiles/clox.dir/clox/object.c.o: clox/chunk.h
+CMakeFiles/clox.dir/clox/object.c.o: clox/common.h
+CMakeFiles/clox.dir/clox/object.c.o: clox/compiler.h
+CMakeFiles/clox.dir/clox/object.c.o: clox/memory.h
+CMakeFiles/clox.dir/clox/object.c.o: clox/object.c
+CMakeFiles/clox.dir/clox/object.c.o: clox/object.h
+CMakeFiles/clox.dir/clox/object.c.o: clox/value.h
+CMakeFiles/clox.dir/clox/object.c.o: clox/vm.h
 
 CMakeFiles/clox.dir/clox/scanner.c.o: clox/common.h
 CMakeFiles/clox.dir/clox/scanner.c.o: clox/scanner.c
@@ -35,12 +57,16 @@ CMakeFiles/clox.dir/clox/scanner.c.o: clox/scanner.h
 
 CMakeFiles/clox.dir/clox/value.c.o: clox/common.h
 CMakeFiles/clox.dir/clox/value.c.o: clox/memory.h
+CMakeFiles/clox.dir/clox/value.c.o: clox/object.h
 CMakeFiles/clox.dir/clox/value.c.o: clox/value.c
 CMakeFiles/clox.dir/clox/value.c.o: clox/value.h
 
 CMakeFiles/clox.dir/clox/vm.c.o: clox/chunk.h
 CMakeFiles/clox.dir/clox/vm.c.o: clox/common.h
+CMakeFiles/clox.dir/clox/vm.c.o: clox/compiler.h
 CMakeFiles/clox.dir/clox/vm.c.o: clox/debug.h
+CMakeFiles/clox.dir/clox/vm.c.o: clox/memory.h
+CMakeFiles/clox.dir/clox/vm.c.o: clox/object.h
 CMakeFiles/clox.dir/clox/vm.c.o: clox/value.h
 CMakeFiles/clox.dir/clox/vm.c.o: clox/vm.c
 CMakeFiles/clox.dir/clox/vm.c.o: clox/vm.h
