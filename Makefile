@@ -312,6 +312,33 @@ clox/scanner.c.s:
 	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/scanner.c.s
 .PHONY : clox/scanner.c.s
 
+clox/table.o: clox/table.c.o
+
+.PHONY : clox/table.o
+
+# target to build an object file
+clox/table.c.o:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/table.c.o
+.PHONY : clox/table.c.o
+
+clox/table.i: clox/table.c.i
+
+.PHONY : clox/table.i
+
+# target to preprocess a source file
+clox/table.c.i:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/table.c.i
+.PHONY : clox/table.c.i
+
+clox/table.s: clox/table.c.s
+
+.PHONY : clox/table.s
+
+# target to generate assembly for a file
+clox/table.c.s:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/clox/table.c.s
+.PHONY : clox/table.c.s
+
 clox/value.o: clox/value.c.o
 
 .PHONY : clox/value.o
@@ -396,6 +423,9 @@ help:
 	@echo "... clox/scanner.o"
 	@echo "... clox/scanner.i"
 	@echo "... clox/scanner.s"
+	@echo "... clox/table.o"
+	@echo "... clox/table.i"
+	@echo "... clox/table.s"
 	@echo "... clox/value.o"
 	@echo "... clox/value.i"
 	@echo "... clox/value.s"

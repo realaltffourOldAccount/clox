@@ -16,6 +16,7 @@ CMakeFiles/clox.dir/clox/compiler.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/debug.h
  /home/ayham-mamoun/Desktop/git/clox/clox/object.h
  /home/ayham-mamoun/Desktop/git/clox/clox/scanner.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.h
  /home/ayham-mamoun/Desktop/git/clox/clox/value.h
  /home/ayham-mamoun/Desktop/git/clox/clox/vm.h
 CMakeFiles/clox.dir/clox/debug.c.o
@@ -31,6 +32,7 @@ CMakeFiles/clox.dir/clox/main.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/debug.h
  /home/ayham-mamoun/Desktop/git/clox/clox/main.c
  /home/ayham-mamoun/Desktop/git/clox/clox/object.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.h
  /home/ayham-mamoun/Desktop/git/clox/clox/value.h
  /home/ayham-mamoun/Desktop/git/clox/clox/vm.h
 CMakeFiles/clox.dir/clox/memory.c.o
@@ -40,6 +42,7 @@ CMakeFiles/clox.dir/clox/memory.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/memory.c
  /home/ayham-mamoun/Desktop/git/clox/clox/memory.h
  /home/ayham-mamoun/Desktop/git/clox/clox/object.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.h
  /home/ayham-mamoun/Desktop/git/clox/clox/value.h
  /home/ayham-mamoun/Desktop/git/clox/clox/vm.h
 CMakeFiles/clox.dir/clox/object.c.o
@@ -49,12 +52,20 @@ CMakeFiles/clox.dir/clox/object.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/memory.h
  /home/ayham-mamoun/Desktop/git/clox/clox/object.c
  /home/ayham-mamoun/Desktop/git/clox/clox/object.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.h
  /home/ayham-mamoun/Desktop/git/clox/clox/value.h
  /home/ayham-mamoun/Desktop/git/clox/clox/vm.h
 CMakeFiles/clox.dir/clox/scanner.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/common.h
  /home/ayham-mamoun/Desktop/git/clox/clox/scanner.c
  /home/ayham-mamoun/Desktop/git/clox/clox/scanner.h
+CMakeFiles/clox.dir/clox/table.c.o
+ /home/ayham-mamoun/Desktop/git/clox/clox/common.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/memory.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/object.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.c
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/value.h
 CMakeFiles/clox.dir/clox/value.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/common.h
  /home/ayham-mamoun/Desktop/git/clox/clox/memory.h
@@ -68,6 +79,7 @@ CMakeFiles/clox.dir/clox/vm.c.o
  /home/ayham-mamoun/Desktop/git/clox/clox/debug.h
  /home/ayham-mamoun/Desktop/git/clox/clox/memory.h
  /home/ayham-mamoun/Desktop/git/clox/clox/object.h
+ /home/ayham-mamoun/Desktop/git/clox/clox/table.h
  /home/ayham-mamoun/Desktop/git/clox/clox/value.h
  /home/ayham-mamoun/Desktop/git/clox/clox/vm.c
  /home/ayham-mamoun/Desktop/git/clox/clox/vm.h

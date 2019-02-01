@@ -2,6 +2,7 @@
     "editor.smoothScrolling": false,
     "C_Cpp.configurationWarnings": "Disabled",
     "files.associations": {
-        "vm.h": "c"
+        "vm.h": "c",
+        "compiler.h": "c"
     }
 }

@@ -36,6 +36,11 @@
 },
 {
   "directory": "/home/ayham-mamoun/Desktop/git/clox/build",
+  "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/table.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/table.c",
+  "file": "/home/ayham-mamoun/Desktop/git/clox/clox/table.c"
+},
+{
+  "directory": "/home/ayham-mamoun/Desktop/git/clox/build",
   "command": "/usr/bin/gcc-7   -O3 -DNDEBUG -g -g   -o CMakeFiles/clox.dir/clox/value.c.o   -c /home/ayham-mamoun/Desktop/git/clox/clox/value.c",
   "file": "/home/ayham-mamoun/Desktop/git/clox/clox/value.c"
 },
